@@ -130,7 +130,7 @@ img {
  @media screen and (min-width:768px) and (max-width:1160px) {
      .container {
          width: 100%;
-         height: 50vw;
+         
      }
 
  }
@@ -156,20 +156,14 @@ img {
         padding: 3rem 2rem;
     }
 
-    .lessons .col{
-        width: 100%;
-        margin-bottom: 4rem;
-    }
-
-    .steps .col{
-        width: 100%;
-        margin-bottom: 4rem;
-    }
-
+    .lessons .col,
+    .steps .col,
     .why-us .col{
         width: 100%;
         margin-bottom: 4rem;
     }
+
+   
 
     section.why-us{
         background-color: #222222;
